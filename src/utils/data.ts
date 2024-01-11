@@ -40,7 +40,7 @@ export const Books:BookProps[] = [
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, possimus quibusdam. Obcaecati eveniet sunt perferendis explicabo dolorem possimus, quo reiciendis illo nobis numquam libero ducimus quas, sequi inventore atque sed',
     alt: 'Kovrilo de la libro “Ursa felo”',
     urlCover: '/covers/ursa-felo.svg',
-    urlAudio: '/y2mate.com - super_bomberman_r_music_grand_prix_checkpoints_extended_M77RkPHWgYM_320kbps.mp3',
+    urlAudio: '/audios/ursa-felo.mp3',
     urlDownload: '/pdf/ursa-felo.pdf'
   },
 
@@ -53,7 +53,7 @@ export const Books:BookProps[] = [
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, possimus quibusdam. Obcaecati eveniet sunt perferendis explicabo dolorem possimus, quo reiciendis illo nobis numquam libero ducimus quas, sequi inventore atque sed',
     alt: 'Kovrilo de la libro “La princino sur pizo”',
     urlCover: '/covers/la-princino-sur-pizo.svg',
-    urlAudio: '/y2mate.com - super_bomberman_r_music_grand_prix_checkpoints_extended_M77RkPHWgYM_320kbps.mp3',
+    urlAudio: '/audios/la-princino-sur-pizo.mp3',
     urlDownload: '/pdf/la-princino-sur-pizo.pdf'
   }, 
   {
@@ -65,7 +65,7 @@ export const Books:BookProps[] = [
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, possimus quibusdam. Obcaecati eveniet sunt perferendis explicabo dolorem possimus, quo reiciendis illo nobis numquam libero ducimus quas, sequi inventore atque sed',
     alt: 'Kovrilo de la libro “Robinsono Kruso”',
     urlCover: '/covers/robinsono-kruso.svg',
-    urlAudio: '/y2mate.com - super_bomberman_r_music_grand_prix_checkpoints_extended_M77RkPHWgYM_320kbps.mp3',
+    urlAudio: '/audios/la-princino-sur-pizo.mp3',
     urlDownload: '/pdf/robinsono-kruso.pdf'
   },
 
@@ -78,7 +78,7 @@ export const Books:BookProps[] = [
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, possimus quibusdam. Obcaecati eveniet sunt perferendis explicabo dolorem possimus, quo reiciendis illo nobis numquam libero ducimus quas, sequi inventore atque sed',
     alt: 'Kovrilo de la libro “La falo de Uŝero-Domo”',
     urlCover: '/covers/la-falo-de-uŝero-domo-estontece.png',
-    urlAudio: '/y2mate.com - super_bomberman_r_music_grand_prix_checkpoints_extended_M77RkPHWgYM_320kbps.mp3',
+    urlAudio: '/audios/la-princino-sur-pizo.mp3',
     urlDownload: '/pdf/la-falo-de-uŝero-domo.pdf'
   }, 
 
@@ -91,7 +91,7 @@ export const Books:BookProps[] = [
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, possimus quibusdam. Obcaecati eveniet sunt perferendis explicabo dolorem possimus, quo reiciendis illo nobis numquam libero ducimus quas, sequi inventore atque sed',
     alt: 'Kovrilo de la libro “La falo de Uŝero-Domo”',
     urlCover: '/covers/la-falo-de-uŝero-domo-estontece.png',
-    urlAudio: '/y2mate.com - super_bomberman_r_music_grand_prix_checkpoints_extended_M77RkPHWgYM_320kbps.mp3',
+    urlAudio: '/audios/la-princino-sur-pizo.mp3',
     urlDownload: '/pdf/la-falo-de-uŝero-domo.pdf'
   },
 
@@ -104,7 +104,7 @@ export const Books:BookProps[] = [
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, possimus quibusdam. Obcaecati eveniet sunt perferendis explicabo dolorem possimus, quo reiciendis illo nobis numquam libero ducimus quas, sequi inventore atque sed',
     alt: 'Kovrilo de la libro “La falo de Uŝero-Domo”',
     urlCover: '/covers/la-falo-de-uŝero-domo-estontece.png',
-    urlAudio: '/y2mate.com - super_bomberman_r_music_grand_prix_checkpoints_extended_M77RkPHWgYM_320kbps.mp3',
+    urlAudio: '/audios/la-princino-sur-pizo.mp3',
     urlDownload: '/pdf/la-falo-de-uŝero-domo.pdf'
   }, 
 
@@ -117,7 +117,7 @@ export const Books:BookProps[] = [
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, possimus quibusdam. Obcaecati eveniet sunt perferendis explicabo dolorem possimus, quo reiciendis illo nobis numquam libero ducimus quas, sequi inventore atque sed',
     alt: 'Kovrilo de la libro “La falo de Uŝero-Domo”',
     urlCover: '/covers/la-falo-de-uŝero-domo-estontece.png',
-    urlAudio: '/y2mate.com - super_bomberman_r_music_grand_prix_checkpoints_extended_M77RkPHWgYM_320kbps.mp3',
+    urlAudio: '/audios/la-princino-sur-pizo.mp3',
     urlDownload: '/pdf/la-falo-de-uŝero-domo.pdf'
   },
 
@@ -130,7 +130,7 @@ export const Books:BookProps[] = [
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, possimus quibusdam. Obcaecati eveniet sunt perferendis explicabo dolorem possimus, quo reiciendis illo nobis numquam libero ducimus quas, sequi inventore atque sed',
     alt: 'Kovrilo de la libro “La falo de Uŝero-Domo”',
     urlCover: '/covers/la-falo-de-uŝero-domo-estontece.png',
-    urlAudio: '/y2mate.com - super_bomberman_r_music_grand_prix_checkpoints_extended_M77RkPHWgYM_320kbps.mp3',
+    urlAudio: '/audios/la-princino-sur-pizo.mp3',
     urlDownload: '/pdf/la-falo-de-uŝero-domo.pdf'
   }
 ]
