@@ -23,16 +23,20 @@ const Bottom = styled.footer`
 
   div {
     line-height: 20px;
-    padding: 5px 0;
+    padding: 4px 0 0;
   }
 
   .icon {
     color: ${theme.colors.background};
+    margin: 0 5px;
+
+    &:hover {
+      transform: scale(1.2);
+    }
   }
 
   @media (max-width: 414px) {
     display: none;
   }
 `
-
 export default Footer

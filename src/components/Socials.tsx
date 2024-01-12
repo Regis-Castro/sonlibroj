@@ -19,7 +19,7 @@ const Socials = () => {
 const SocialIcons = styled.div`
   .icon {
     color: ${theme.colors.primary};
-    margin: 0 5px;
+    margin: 0 0 5px;
 
     &:hover {
       transform: scale(1.2);

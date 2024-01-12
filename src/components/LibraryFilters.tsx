@@ -186,12 +186,6 @@ export const Card = styled.section`
     height: auto;
   }
 
-  .support-options {
-    p:not(:last-child) {
-      margin-bottom: 5px;
-    }
-  }
-
   .supporters {
     height: auto;
 
