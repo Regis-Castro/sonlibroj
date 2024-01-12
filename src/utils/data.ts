@@ -50,7 +50,7 @@ export const Books:BookProps[] = [
     slug: 'la-princino-sur-pizo',
     categories: ['fikcio', 'fabelo', 'feinrakonto'],
     date: '12/01/2024',
-    description: 'Princo deziris edziĝi kaj serĉis veran princinon tra la tuta mondo. Sed kiel malkovri, ĉu ŝi estas vera princino aŭ ne?',
+    description: 'Princo deziris edziĝi kaj serĉis veran princinon tra la tuta mondo. Sed kiel malkovri, ĉu ŝi estas vera princino?',
     alt: 'Kovrilo de la libro “La princino sur pizo”',
     urlCover: '/covers/la-princino-sur-pizo.svg',
     urlAudio: '/audios/la-princino-sur-pizo.mp3',

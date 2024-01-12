@@ -29,7 +29,7 @@ const Book = () => {
                 <img src={book?.urlCover} alt={book?.alt} />
                 <div className="download">
                   <a href={book?.urlDownload} download>
-                    Elŝuti libron
+                    Elŝuti PDF-dosieron
                   </a>
                   <a href={book?.urlDownload} download>
                     <img className="icon" src="/icons/download.svg" alt="Butono por elŝuti la libron" />
