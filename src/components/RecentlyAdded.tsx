@@ -128,7 +128,6 @@ export const Main = styled.main`
   }
 
   img {
-    cursor: pointer;
     width: 200px;
 
     @media (max-height: 786px) {
