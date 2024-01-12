@@ -16,9 +16,9 @@ const Support = () => {
 
         <h2>Aboneblecoj monate</h2>
         <div>
-          <p><b>$1</b> - Vi havos aliron al nia Patreon-fluo.</p>
-          <p><b>$5</b> - Vi havos aliron al nia Patreon-fluo kaj via nomo aperos ĉe la malsupra listo de subtenantoj laŭ via permeso.</p>
-          <p><b>$10</b> - Vi havos aliron al nia Patreon-fluo, via nomo aperos ĉe la malsupra listo de subtenantoj laŭ via permeso, kaj vi povas elekti la ĝenron de la legota libro.</p>
+          <p><b>$1</b> - Vi havos aliron al nia Patreon-fluo.</p><br/>
+          <p><b>$5</b> - Vi havos aliron al nia Patreon-fluo kaj via nomo aperos ĉe la malsupra listo de subtenantoj laŭ via permeso.</p><br/>
+          <p><b>$10</b> - Vi havos aliron al nia Patreon-fluo, via nomo aperos ĉe la malsupra listo de subtenantoj laŭ via permeso, kaj vi povas elekti la ĝenron de la legota libro.</p><br/>
           <p><b>$30</b> - Vi havos aliron al nia Patreon-fluo, via nomo aperos ĉe la malsupra listo de subtenantoj laŭ via permeso, kaj vi povos elekti legotan libron. Aldone, se vi konsentos, via nomo estos menciita je ĝia PDF-dosiero! &#x1F600;</p>
         </div>
 
