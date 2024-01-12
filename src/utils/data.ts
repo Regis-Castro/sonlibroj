@@ -23,10 +23,11 @@ export type socialIconProps = {
 }
 
 export const socialIcons:socialIconProps[] = [
-  { id: 1, iconLink: 'mdi:instagram', link: 'https://www.instagram.com/sonlibroj'},
-  { id: 2, iconLink: 'mdi:youtube', link: 'https://www.youtube.com/channel/UCELlmC1CR0yNuzOjLNRDSxA'},
-  { id: 3, iconLink: 'mdi:twitter', link: 'https://www.twitter.com/sonlibroj'},
-  { id: 4, iconLink: 'mdi:patreon', link: 'https://www.patreon.com/sonlibroj'}
+  { id: 1, iconLink: 'mdi:patreon', link: 'https://www.patreon.com/sonlibroj'},
+  { id: 2, iconLink: 'ic:baseline-facebook', link: 'https://www.facebook.com/sonlibroj'},
+  { id: 3, iconLink: 'mdi:instagram', link: 'https://www.instagram.com/sonlibroj'},
+  { id: 4, iconLink: 'mdi:youtube', link: 'https://www.youtube.com/channel/UCELlmC1CR0yNuzOjLNRDSxA'},
+  { id: 5, iconLink: 'mdi:twitter', link: 'https://www.twitter.com/sonlibroj'},
 ]
 
 export type BookProps = {
