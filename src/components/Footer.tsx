@@ -28,11 +28,6 @@ const Bottom = styled.footer`
 
   .icon {
     color: ${theme.colors.background};
-    margin: 0 5px;
-
-    &:hover {
-      transform: scale(1.2);
-    }
   }
 
   @media (max-width: 414px) {
