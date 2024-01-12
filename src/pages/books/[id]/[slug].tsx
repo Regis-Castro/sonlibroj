@@ -40,7 +40,7 @@ const Book = () => {
                 <h3>{book?.title}</h3>
                 <p>{book?.description}</p>
 
-                <audio src={book?.urlAudio} controls/>
+                <audio preload="metadata" src={book?.urlAudio} controls/>
               </div>
             </div>
           </div>
