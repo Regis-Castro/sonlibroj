@@ -110,8 +110,8 @@ export const Card = styled.section`
   margin: 40px auto;
   width: 69vw;
 
-  @media (max-width: 800px) {
-    width: 90vw;
+  @media (max-width: 1024px) {
+    width: 95vw;
   }
 
   h2 {
