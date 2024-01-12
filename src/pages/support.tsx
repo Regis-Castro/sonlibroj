@@ -36,7 +36,7 @@ const Support = () => {
 
 const SupportOptions = styled.div`
     p:not(:last-child) {
-      margin-bottom: 10px;
+      margin-bottom: 5px;
     }
 `
 
