@@ -1,6 +1,6 @@
 export const GeneralFilters: string[] = ['a-z', 'z-a', 'plej novaj', 'plej malnovaj']
 
-export const CategoryFilters: string[] = ['aventuro', 'fabelo', 'feinrakonto', 'suspenso', 'teruro']
+export const CategoryFilters: string[] = ['aventuro', 'fabelo', 'ferakonto', 'suspenso', 'teruro']
 
 export type menuItemProps = {
   id: number;
