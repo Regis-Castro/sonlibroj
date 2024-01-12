@@ -64,14 +64,12 @@ function LibraryFilters({ children }: LibraryFiltersProps) {
                 id={filter}
                 key={filterIndex}
                 value={filter}
-                checked={ordering === filter }
+                checked={ordering === filter }/>
 
-              />
               <StyledLabel
                 htmlFor={filter}
                 isChecked={ordering !== null && ordering === filter}
-                onClick={() => handleLabelOrderClick(filter)}
-              >
+                onClick={() => handleLabelOrderClick(filter)}>
                 {filter}
               </StyledLabel>
             </div>
@@ -113,7 +111,6 @@ export const Card = styled.section`
   width: 69vw;
 
   @media (max-width: 800px) {
-    margin: 5px auto;
     width: 90vw;
   }
 
@@ -164,16 +161,13 @@ export const Card = styled.section`
 
   .bookcards-grid {
     display: grid;
+    flex-wrap: wrap;
     font-size: 1.8rem;
     grid-row-gap: 50px;
     grid-template: repeat(2, auto) / repeat(5, auto);
-    margin: 0 auto;
+    margin: 50px auto 80px;
 
     @media (max-width: 1440px) {
-      grid-template: repeat(2, auto) / repeat(4, auto);
-    }
-
-    @media (max-width: 800px) {
       grid-template: repeat(2, auto) / repeat(3, auto);
     }
 
@@ -198,6 +192,10 @@ export const Card = styled.section`
     @media (max-height: 896px) {
       height: 25vh;
     }
+  }
+
+  .icon {
+    margin-right: 5px;
   }
 `;
 

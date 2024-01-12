@@ -69,15 +69,18 @@ export const Main = styled.main`
     justify-content: center;
     gap: 50px;
     padding: 30px;
-    width: 80vw;
+    width: 40vw;
+
+    @media (max-width: 1440px) {
+        width: 60vw;
+    }
 
     @media (max-height: 1024px) {
       gap: 10px;
-      padding: 10px;
     }
 
-    @media (max-width: 414px) {
-      width: 95vw;
+    @media (max-width: 425px) {
+      width: 90vw;
     }
   }
 

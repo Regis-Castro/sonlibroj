@@ -22,9 +22,14 @@ const Header = styled.header`
 
   @media (max-width: 414px) {
     bottom: 0;
-    height: 80px;
+    height: auto;
+    padding: 3px 0;
     position: fixed;
     width: 100%;
+
+    img {
+      display: none;
+    }
   }
 `
 export default Navbar

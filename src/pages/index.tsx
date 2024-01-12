@@ -9,7 +9,8 @@ export default function Home() {
   return (
     <>
       <Navbar/>
-      <RecentlyAdded book={Books[Books.length-1]}/>
+      {/* <RecentlyAdded book={Books[Books.length-1]}/> */}
+      <RecentlyAdded book={Books[0]}/>
       <Footer/>
     </>
   )

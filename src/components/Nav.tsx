@@ -11,8 +11,13 @@ const Nav = () => {
           {menuItems.map((item) => (
             <>
               <li key={item.id}>
-                <Link href={item.link}><Icon className="icon" icon={item.iconLink} width="20"/></Link>
-                <Link href={item.link}>{item.name}</Link>
+                {/* <Link href={item.link}><Icon className="icon" icon={item.iconLink} width="20"/></Link>
+                <Link href={item.link}>{item.name}</Link> */}
+
+                <Link href={item.link}>
+                <Icon className="icon" icon={item.iconLink} width="20"/>
+                {item.name}
+                </Link>
               </li>
             </>
           ))}
@@ -48,6 +53,7 @@ const Navigation = styled.nav`
 
   .icon {
     display: none;
+    margin: auto;
 
     @media (max-width: 414px) {
       display: block;
@@ -60,8 +66,13 @@ const Navigation = styled.nav`
   }
 
   a:hover {
-    color: ${theme.colors.secondary}
+    color: ${theme.colors.secondary};
+
+    @media (max-width: 414px) {
+      color: ${theme.colors.background};
+    }
   }
+
 `
 
 export default Nav

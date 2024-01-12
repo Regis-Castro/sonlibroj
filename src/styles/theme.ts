@@ -6,11 +6,6 @@ const theme = {
     primary: '#F2F4F1', 
     secondary: '#009900'
   },
-
-  fontSize: {
-    sixteenpx: '1.6rem',
-    eighteenpx: '1.8rem'
-  } 
 }
 
 export default theme

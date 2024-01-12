@@ -1,10 +1,14 @@
 import theme from '~/styles/theme'
 import styled from "styled-components"
+import Socials from './Socials'
 
 const Footer = () => {
   return (
       <Bottom>
-        <p>&copy; 2024 Ĉiuj rajtoj rezervitaj</p>
+        <div>
+          <Socials/>
+          <p>&copy; 2024 Ĉiuj rajtoj rezervitaj</p>
+        </div>
       </Bottom>
   )
 }
@@ -14,9 +18,22 @@ const Bottom = styled.footer`
   color: ${theme.colors.background};
   font-size: 1.4rem;
   height: 65px;
-  line-height: 65px;
   text-align: center;
   width: 100%;
+
+  div {
+    line-height: 20px;
+    padding: 5px 0;
+  }
+
+  .icon {
+    color: ${theme.colors.background};
+    margin: 0 5px;
+
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
 
   @media (max-width: 414px) {
     display: none;

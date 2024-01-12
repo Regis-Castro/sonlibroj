@@ -3,6 +3,7 @@ import Navbar from '~/components/Navbar'
 import Footer from '~/components/Footer'
 import Link from 'next/link'
 import { Wrapper } from '~/styles/styles'
+import Socials from '~/components/Socials'
 
 const AboutUs = () => {
   return (
@@ -17,6 +18,9 @@ const AboutUs = () => {
         <p>Rangel: financoj, voĉregistrado kaj muntado, retpoŝtadreso</p>
         <p>Regis: programado, voĉregistrado.</p>
         <p>Suelem: dezajno, uzantsperto, prilaboro de PDF-dosieroj, sociaj retoj</p>
+
+        <h2>Sociaj retoj</h2>
+        <Socials/>
 
         <h2>Kunlaboro</h2>
         <p>Se vi volas kunlabori sendante viajn sonlibrojn, bonvolu skribi al <Link href="mailto:sonlibroj@gmail.com">sonlibroj@gmail.com</Link></p>
